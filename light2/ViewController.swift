@@ -16,13 +16,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         redSquare.alpha = 1
-        redSquare.layer.cornerRadius = redSquare.frame.size.width / 2
+        redSquare.layer.cornerRadius = redSquare.frame.width / 2
         
         yellowSquare.alpha = 0.3
-        yellowSquare.layer.cornerRadius = redSquare.frame.size.width / 2
+        yellowSquare.layer.cornerRadius = redSquare.frame.width / 2
         
         greenSquare.alpha = 0.3
-        greenSquare.layer.cornerRadius = redSquare.frame.size.width / 2
+        greenSquare.layer.cornerRadius = redSquare.frame.width / 2
         
         // Do any additional setup after loading the view.
     }
